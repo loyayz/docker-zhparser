@@ -41,3 +41,4 @@ RUN apt-get update \
 
 RUN mkdir -p /docker-entrypoint-initdb.d
 COPY ./load-extensions.sh /docker-entrypoint-initdb.d/10_zhparser.sh
+RUN chmod 755 /docker-entrypoint-initdb.d/10_zhparser.sh
