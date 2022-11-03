@@ -8,7 +8,7 @@ on:
 
 env:
   docker-repo: loyayz
-  docker-image: docker-zhparser
+  docker-image: postgres-zhparser
 
 defaults:
   run:
