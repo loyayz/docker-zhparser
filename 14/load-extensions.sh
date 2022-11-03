@@ -12,6 +12,7 @@ psql -U postgres -tc "SELECT 1 FROM pg_database WHERE datname = 'template_db'" |
 for DB in template_db "$POSTGRES_DB"; do
 	echo "Loading zhparser extensions into $DB"
 	"${psql[@]}" --dbname="$DB" <<-'EOSQL'
+	    CREATE EXTENSION IF NOT EXISTS pg_trgm;
 	    CREATE EXTENSION IF NOT EXISTS zhparser;
 	    DO
       $$BEGIN
