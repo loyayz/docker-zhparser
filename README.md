@@ -1,4 +1,4 @@
-基于 [官方镜像 postgres](https://hub.docker.com/_/postgres) 添加`zhparser`插件，每周自动构建以保证使用最近版本的基础镜像。
+基于 [官方镜像 postgres](https://hub.docker.com/_/postgres) 添加 [zhparser](https://github.com/amutu/zhparser) 插件，每周自动构建以保证使用最近版本的基础镜像。
 
 # Quick reference
 
