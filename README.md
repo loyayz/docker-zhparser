@@ -25,4 +25,4 @@ $ docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d loyay
 - 容器在启动后将自动执行[脚本](https://github.com/loyayz/docker-zhparser/blob/master/15/load-extensions.sh)
   - 创建模板数据库`template_db`
   - 在`template_db`和`$POSTGRES_DB`库中添加插件`zhparser`、`pg_trgm`
-  - 在`template_db`和`$POSTGRES_DB`库中添加全文搜索配置`chn (PARSER = zhparser)`
+  - 在`template_db`和`$POSTGRES_DB`库中添加全文检索配置`chn (PARSER = zhparser)`
