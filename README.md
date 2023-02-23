@@ -6,7 +6,7 @@
 	[loyayz/docker-zhparser](https://github.com/loyayz/docker-zhparser)
 -	**Docker Pull Command**:  
         ```
-        docker push loyayz/postgres-zhparser:15
+        docker pull loyayz/postgres-zhparser:15
         ```
 
 # Supported tags and respective `Dockerfile` links
